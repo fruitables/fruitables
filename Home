@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1 class="welcome">
+     <strong>Welcome To My Page </strong>
+    </h1>
+  </head>
+  <body>
+    <p>
+      <div class="intro">
+      Welcome to my page, meant just for you!
+        <p>have a great day, feel free to explore!</p>
+       </div>
+    </p>
+  </body>
+</html>
+<style>
+.welcome{
+  color: #ffe5ff;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-style: oblique;
+  font-size: 60px;
+}
 
+.welcome:hover{
+  opacity: 0.6;
+  font-variant: small-caps;
+}
+
+
+body{
+    background: blue;
+    background: -webkit-linear-gradient(#ffb3ff, #e5eeff);
+    background: -o-linear-gradient(#ffb3ff, #e5eeff);
+    background: -moz-linear-gradient(#ffb3ff, #e5eeff);
+    background: linear-gradient(#ffb3ff, #e5eeff);
+}
+
+
+.intro{
+  color: #ffe5ff;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  background-color: #0000FF;
+  background: rgba(10,79,128,0.3);
+  padding: 5px 10px;
+  padding-top: 15px;
+}
+
+
+</style>
